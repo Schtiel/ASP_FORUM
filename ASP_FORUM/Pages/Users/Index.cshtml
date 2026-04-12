@@ -1,0 +1,20 @@
+﻿@page
+@model ASP_FORUM.Pages.Users.IndexModel
+@{
+}
+
+<h1>Users</h1>
+
+<a asp-page="Create">Create</a>
+
+<ul>
+	@foreach (var u in Model.Output)
+	{
+		<li>
+			@u.Username - @u.Email
+
+			<a asp-page="Edit" asp-route-id="@u.Id">Edit</a>
+			<a asp-page="Delete" asp-route-id="@u.Id">Delete</a>
+		</li>
+	}
+</ul>

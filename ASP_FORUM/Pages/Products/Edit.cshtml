@@ -1,0 +1,14 @@
+﻿@page "{id:int}"
+@model ASP_FORUM.Pages.Products.EditModel
+@{
+}
+
+<h1>Edit Product</h1>
+
+<form method="post">
+	<input asp-for="Input.Id" type="hidden" />
+	<input asp-for="Input.Name" />
+	<input asp-for="Input.Price" />
+
+	<button type="submit">Save</button>
+</form>

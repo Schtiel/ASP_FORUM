@@ -1,0 +1,13 @@
+﻿@page
+@model ASP_FORUM.Pages.Products.CreateModel
+@{
+}
+
+<h1>Create Product</h1>
+
+<form method="post">
+    <input asp-for="Input.Name" placeholder="Name" />
+    <input asp-for="Input.Price" placeholder="Price" />
+
+    <button type="submit">Save</button>
+</form>

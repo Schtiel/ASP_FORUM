@@ -1,0 +1,14 @@
+﻿@page
+@model ASP_FORUM.Pages.Users.CreateModel
+@{
+}
+
+<h1>Create User</h1>
+
+<form method="post">
+	<input asp-for="Input.Username" placeholder="Username" />
+	<input asp-for="Input.Email" placeholder="Email" />
+	<input asp-for="Input.PasswordHash" placeholder="Password" />
+
+	<button type="submit">Save</button>
+</form>
