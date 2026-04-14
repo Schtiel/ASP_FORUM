@@ -75,4 +75,11 @@ app.MapGet("/test-error", () =>
 	throw new Exception("Error forzado");
 });
 
+// Sistema de migración, para crear y actualizar las DB sin tener que usar archivos .sql
+using (var scope = app.Services.CreateScope())
+{
+	var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+	db.Database.Migrate();
+}
+
 app.Run();

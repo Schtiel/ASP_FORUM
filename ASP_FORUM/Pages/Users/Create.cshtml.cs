@@ -16,7 +16,7 @@ namespace ASP_FORUM.Pages.Users
 
 		public async Task<IActionResult> OnPostAsync()
 		{
-			if (User == null || !ModelState.IsValid)
+			if (Input == null)
 				return Page();
 			await _service.CreateAsync(Input);
 			return RedirectToPage("Index");

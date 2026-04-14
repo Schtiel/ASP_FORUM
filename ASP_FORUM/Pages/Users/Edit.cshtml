@@ -1,0 +1,14 @@
+﻿@page
+@model ASP_FORUM.Pages.Users.EditModel
+@{
+}
+
+<h1>Edit User</h1>
+
+<form method="post">
+	<input asp-for="Input.Id" type="hidden" />
+	<input asp-for="Input.Username" />
+	<input asp-for="Input.Email" />
+
+	<button type="submit">Save</button>
+</form>

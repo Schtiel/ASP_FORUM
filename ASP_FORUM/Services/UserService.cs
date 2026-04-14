@@ -45,6 +45,14 @@ namespace ASP_FORUM.Services
 				.FirstOrDefaultAsync(p => p.Username == username || p.Email == email) != null;
 		}
 
+		public async Task UpdateAsync(User user)
+		{
+			_logger.LogInformation("DB:Actualizando usuario con ID {Id}", user.Id);
+
+			_context.Users.Update(user);
+			await _context.SaveChangesAsync();
+		}
+
 		public async Task<TaskResult<User>> CreateAsync(User user)
 		{
 			if (await CheckUserExistAsync(user.Username, user.Email))

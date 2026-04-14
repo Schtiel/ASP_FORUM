@@ -1,0 +1,23 @@
+2026-04-12 12:52:52.115 +02:00 [INF] DB:Eliminando producto con ID 3
+2026-04-12 12:52:53.091 +02:00 [INF] DB:Eliminando producto con ID 4
+2026-04-12 12:54:23.619 +02:00 [INF] DB:Creando producto
+2026-04-12 12:54:26.403 +02:00 [INF] DB:Creando producto
+2026-04-12 12:54:43.142 +02:00 [INF] DB:Creando producto
+2026-04-12 12:54:48.994 +02:00 [INF] DB:Creando producto
+2026-04-12 12:54:54.035 +02:00 [INF] DB:Creando producto
+2026-04-12 13:05:37.335 +02:00 [INF] DB:Creando producto Pruebaaa con el ID 0
+2026-04-12 13:22:40.825 +02:00 [INF] DB:Creando producto jlhasdhjksad
+2026-04-12 13:22:41.696 +02:00 [INF] DB:Producto creado con ID 11
+2026-04-12 13:22:43.611 +02:00 [INF] DB:Eliminando producto con ID 10
+2026-04-12 13:22:44.012 +02:00 [INF] DB:Eliminando producto con ID 9
+2026-04-12 13:22:44.403 +02:00 [INF] DB:Eliminando producto con ID 8
+2026-04-12 13:22:44.749 +02:00 [INF] DB:Eliminando producto con ID 7
+2026-04-12 13:22:45.595 +02:00 [INF] DB:Eliminando producto con ID 6
+2026-04-12 13:22:45.934 +02:00 [INF] DB:Eliminando producto con ID 5
+2026-04-12 13:22:46.584 +02:00 [INF] DB:Eliminando producto con ID 11
+2026-04-12 14:38:44.052 +02:00 [INF] DB:Creando producto test
+2026-04-12 14:38:44.231 +02:00 [INF] DB:Producto test creado con ID 12
+2026-04-12 14:39:38.967 +02:00 [INF] DB:Actualizando producto con ID 12
+2026-04-12 14:41:46.650 +02:00 [INF] DB:Creando producto asddsa
+2026-04-12 14:41:47.647 +02:00 [INF] DB:Producto asddsa creado con ID 13
+2026-04-12 14:41:56.673 +02:00 [INF] DB:Actualizando producto con ID 13
